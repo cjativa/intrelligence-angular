@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+
+
+body {
+    font-family: 'Nunito', sans-seif;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+    width: 100%;
+}

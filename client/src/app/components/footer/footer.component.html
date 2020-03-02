@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="horizontal-box">
+    <div class="info">
+      <h1>Intrelligence</h1>
+      <p class="subheading">Insights and perspective, digitzed</p>
+      <button *ngIf="!auth.isLoggedIn()" mat-button class="sign-up-btn" routerLink="/signUp">Sign up today, free</button>
+      <button *ngIf="!auth.isLoggedIn()" mat-button class="login-btn" routerLink="/login">Log In</button>
+    </div>
+    <div class="info-list">
+      <ul>
+        <li class="li-header">Intrelligence</li>
+        <li class="li-item">About</li>
+        <li class="li-item">Contact</li>
+      </ul>
+    </div>
+    <ul class="lower-list">
+      <li class="li-item">Privacy</li>
+      <li class="li-item">Terms</li>
+    </ul>
+    <p>© Zerochass, LLC. All rights reserved.</p>
+  </div>
+
+</div>

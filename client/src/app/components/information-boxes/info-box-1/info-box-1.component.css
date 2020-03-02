@@ -1,0 +1,16 @@
+h1, p {
+    color: #ffffff;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    background-color: #00c8f8;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    align-items: center;
+}

@@ -1,0 +1,14 @@
+<div class="container">
+  <mat-sidenav-container>
+    <mat-sidenav #sidenav mode="side" opened="true">
+      <mat-nav-list>
+        <a mat-list-item class="mat-list-item" routerLink="/user/profile">Profile</a>
+        <a mat-list-item class="mat-list-item" routerLink="/user/account">Account</a>
+        <a mat-list-item class="mat-list-item" routerLink="/user/connect">Connect</a>
+      </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <router-outlet></router-outlet>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>

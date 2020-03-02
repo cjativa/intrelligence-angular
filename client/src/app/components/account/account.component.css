@@ -1,0 +1,47 @@
+h1, h4, label {
+    color: #606060;
+    font-weight: normal;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    color: #aaaaaa;
+    height: 45px;
+
+    padding-left: 10px; 
+    border-style: solid;
+    border-color: rgb(209, 209, 209);
+    border-width: 1px;
+    border-radius: 8px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+
+    width: 640px;
+}
+
+.form-group-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.form-group-button {
+    display: flex;
+    justify-content: flex-end
+}
+.save-btn {
+    background-color: #8783d1;
+    width: 100px;
+    height: 55px;
+    border-style: none;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 2px;
+    
+}

@@ -1,0 +1,79 @@
+h1 {
+    font-family: "Baloo Paaji";
+    color: #ff89c6;
+}
+
+p {
+    color: #606060;
+}
+
+h1, p {
+    margin: 0;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    border-radius: 4px;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 100px;
+}
+
+.horizontal-box {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+}
+
+.info-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0 auto;
+}
+
+.lower-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.sign-up-btn {
+    color: #ffffff;
+    background-color: #72bb53;
+    border-style: none;
+}
+
+.login-btn {
+    color: #72bb53;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #72bb53;
+    background-color: #ffffff;
+}
+
+.li-header {
+    color: #ff89c6;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.li-item {
+    color: #606060;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+.subheading {
+    margin-bottom: 30px;
+}

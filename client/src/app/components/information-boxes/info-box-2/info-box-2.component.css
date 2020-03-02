@@ -1,0 +1,17 @@
+h1, p {
+    color: #ffffff;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    background-color: #9c29b7;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 60px;
+    align-items: flex-start;
+}

@@ -1,0 +1,16 @@
+<div class="navbar">
+  <a class="logo-text">Intrelligence</a>
+  <div class="navbar-section-right">
+    <button *ngIf="!auth.isLoggedIn()" mat-button class="login-btn" routerLink="/login">Login</button>
+    <button *ngIf="!auth.isLoggedIn()" mat-button class="sign-up-btn" routerLink="/signUp">Sign up</button>
+    <button *ngIf="auth.isLoggedIn()" mat-button routerLink="/app">App</button>
+    <button *ngIf="auth.isLoggedIn()" mat-button [matMenuTriggerFor]="menu">{{ auth.getUserDetails()?.name }}</button>
+    <mat-menu #menu="matMenu" [overlapTrigger]="false">
+      <button mat-menu-item routerLink="/user/profile">Profile</button>
+      <button mat-menu-item routerLink="/user/account">Account</button>
+      <button mat-menu-item routerLink="/user/connect">Connect</button>
+      <button mat-menu-item class="sign-up-btn" (click)="auth.logout()">Logout</button>
+    </mat-menu>
+
+  </div>
+</div>
